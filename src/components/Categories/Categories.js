@@ -11,11 +11,12 @@ const Categories = () => {
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);
+
   return (
     <div className="container">
-      <div className="row">
+      <div className="row d-flex justiy-content-center">
         {foods.map((food) => (
-          <Category food={food} />
+          <Category food={food}></Category>
         ))}
       </div>
     </div>
