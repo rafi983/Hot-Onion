@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../more-images/logo2.png";
 import Categories from "../Categories/Categories";
+import Services from "../Services/Services";
 import "./Home.css";
 
 const Home = () => {
@@ -51,6 +52,7 @@ const Home = () => {
       </div>
 
       <Categories />
+      <Services />
     </>
   );
 };
