@@ -1,0 +1,11 @@
+.service {
+  transition: all 0.5s;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.service:hover {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
+  border-radius: 1rem;
+  cursor: pointer;
+}

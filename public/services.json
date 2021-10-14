@@ -1,16 +1,19 @@
 [
   {
     "image": "./Image/service1.png",
+    "icon": "./ICON/fastdeliver.png",
     "title": "Fast Delivery",
     "desc": "Fast Deliver is a fast growing and promising courier and parcel service in The world. With excellent customer service, Customers can count on us to deliver"
   },
   {
     "image": "./Image/service2.png",
+    "icon": "./ICON/responder.png",
     "title": "A Good Auto Responder",
     "desc": "Some quick example text to build on the card title and make up the bulk of the card's content."
   },
   {
     "image": "./Image/service3.png",
+    "icon": "./ICON/homedelivery.png",
     "title": "Home Delivery",
     "desc": "We deliver our foods to our customer's doors.So no need to hastly to order your fav food.We are always there for you."
   }
