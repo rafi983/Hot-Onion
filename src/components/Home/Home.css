@@ -1,0 +1,30 @@
+.logo {
+  width: 250px;
+}
+.banner {
+  background: url("../../more-images/bgImage.png");
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.btn-regular {
+  background-color: #e70a0a;
+  color: #fff;
+}
+.btn-search {
+  margin-left: -9.5rem;
+  background-color: #e70a0a;
+  color: #fff;
+  z-index: 10;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#search-field {
+  z-index: 1;
+}
