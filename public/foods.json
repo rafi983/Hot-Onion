@@ -80,5 +80,41 @@
     "price": 21,
     "title": "Beef Steak",
     "desc": "Multi-tiered content-based superstructure"
+  },
+  {
+    "image": "./Dinner/dinner1.png",
+    "price": 20,
+    "title": "Beef vuna",
+    "desc": "Persistent fresh-thinking help-desk"
+  },
+  {
+    "image": "./Dinner/dinner2.png",
+    "price": 18,
+    "title": "Lemony Salmon Piccata",
+    "desc": "Polarised interactive internet solution"
+  },
+  {
+    "image": "./Dinner/dinner3.png",
+    "price": 25,
+    "title": "Garlic Butter Baked Salmon",
+    "desc": "Polarised object-oriented concept"
+  },
+  {
+    "image": "./Dinner/dinner4.png",
+    "price": 26,
+    "title": "French Fries with cheese",
+    "desc": "Function-based clear-thinking knowledge user"
+  },
+  {
+    "image": "./Dinner/dinner5.png",
+    "price": 36,
+    "title": "Pork Tenderloin With Quinoa Pilaf",
+    "desc": "Compatible asynchronous help-desk"
+  },
+  {
+    "image": "./Dinner/dinner6.png",
+    "price": 22,
+    "title": "Salmon with Grapefruit and Lentil Salad",
+    "desc": "Switchable methodical pricing structure"
   }
 ]
