@@ -46,39 +46,39 @@
   {
     "image": "./lunch/lunch1.png",
     "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "title": "Honey-Soy-Glazed salmon with Peppers",
+    "desc": "Open-source actuating time-frame"
   },
 
   {
     "image": "./lunch/lunch2.png",
-    "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "price": 20,
+    "title": "Tarragon-Rubbed-Salmon",
+    "desc": "Versatile heuristic application"
   },
 
   {
     "image": "./lunch/lunch3.png",
-    "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "price": 29,
+    "title": "Indian Lunch",
+    "desc": "Enhanced national throughput"
   },
   {
     "image": "./lunch/lunch4.png",
-    "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "price": 25,
+    "title": "Fried Chicken Bento",
+    "desc": "Team-oriented stable info-mediaries"
   },
   {
     "image": "./lunch/lunch5.png",
-    "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "price": 28,
+    "title": "Healthy Meal Plan",
+    "desc": "Advanced needs-based task-force"
   },
   {
     "image": "./lunch/lunch6.png",
-    "price": 23,
-    "title": "Beef Milanesa",
-    "desc": "Hone your skills and expand your knowledge."
+    "price": 21,
+    "title": "Beef Steak",
+    "desc": "Multi-tiered content-based superstructure"
   }
 ]
