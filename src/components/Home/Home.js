@@ -4,7 +4,9 @@ const Home = () => {
   const [foods, setFoods] = useState([]);
 
   useEffect(() => {
-    fetch("./foods.json")
+    fetch(
+      "https://raw.githubusercontent.com/rafi983/Hot-Onion/main/public/foods.json"
+    )
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);

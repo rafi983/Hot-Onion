@@ -4,5 +4,42 @@
     "price": 15,
     "title": "Egg Benedict",
     "desc": "Extended local parallelism"
+  },
+
+  {
+    "image": "./Breakfast/breakfast2.png",
+    "price": 13,
+    "title": "Breakfast sandwitch",
+    "desc": "Centralized contextually-based software"
+  },
+  {
+    "image": "./Breakfast/breakfast3.png",
+    "price": 10,
+    "title": "Baked Chicken",
+    "desc": "Synchronised exuding instruction set"
+  },
+  {
+    "image": "./Breakfast/breakfast4.png",
+    "price": 12,
+    "title": "Bagel and Cream Cheese",
+    "desc": "Triple-buffered cohesive infrastructure"
+  },
+  {
+    "image": "./Breakfast/breakfast5.png",
+    "price": 18,
+    "title": "Full Breakfast Fried Egg Toast Brunch",
+    "desc": "Polarized value-added policy"
+  },
+  {
+    "image": "./Breakfast/breakfast6.png",
+    "price": 16,
+    "title": "Toast Croissant",
+    "desc": "Customer-focused real-time access"
+  },
+  {
+    "image": "./Breakfast/breakfast7.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
   }
 ]
