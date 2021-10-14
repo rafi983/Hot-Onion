@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../more-images/logo2.png";
+import Categories from "../Categories/Categories";
 import "./Home.css";
 
 const Home = () => {
@@ -48,6 +49,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Categories />
     </>
   );
 };
