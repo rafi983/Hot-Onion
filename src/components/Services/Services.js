@@ -5,7 +5,9 @@ const Services = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("./services.json")
+    fetch(
+      "https://raw.githubusercontent.com/rafi983/Hot-Onion/main/public/services.json"
+    )
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

@@ -1,0 +1,27 @@
+.logo-img {
+  width: 200px;
+}
+.footer {
+  height: 300px;
+  background-color: #2e2e2e;
+}
+.links {
+  color: #fff;
+  margin-top: 2rem;
+}
+li {
+  list-style: none;
+}
+.copyright {
+  margin-top: 5rem;
+  color: #6b8080;
+}
+.other-links {
+  display: flex;
+  color: #fff;
+  /* padding: 6rem; */
+}
+.other-links li {
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
