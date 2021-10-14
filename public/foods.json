@@ -41,5 +41,44 @@
     "price": 23,
     "title": "Beef Milanesa",
     "desc": "Hone your skills and expand your knowledge."
+  },
+
+  {
+    "image": "./lunch/lunch1.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
+  },
+
+  {
+    "image": "./lunch/lunch2.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
+  },
+
+  {
+    "image": "./lunch/lunch3.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
+  },
+  {
+    "image": "./lunch/lunch4.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
+  },
+  {
+    "image": "./lunch/lunch5.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
+  },
+  {
+    "image": "./lunch/lunch6.png",
+    "price": 23,
+    "title": "Beef Milanesa",
+    "desc": "Hone your skills and expand your knowledge."
   }
 ]
