@@ -1,13 +1,11 @@
 import React from "react";
 import Categories from "../Categories/Categories";
-import Navbar from "../Navbar/Navbar";
 import Services from "../Services/Services";
 import "./Home.css";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="banner">
         <div className="banner-content">
           <h1 className="mb-4">Best food waiting for your belly</h1>

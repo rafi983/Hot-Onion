@@ -4,18 +4,24 @@ import "./App.css";
 import CategoryDetail from "./components/CategoryDetail/CategoryDetail";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router>
-      <Home />
-      <Switch>
-        <Route path="/categorydetail/:id">
-          <CategoryDetail />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
+    <div>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/categorydetail/:id">
+            <CategoryDetail />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 

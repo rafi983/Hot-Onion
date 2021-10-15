@@ -1,13 +1,21 @@
 import React from "react";
+import { useHistory } from "react-router";
 import logo from "../../more-images/logo2.png";
+import "./Navbar.css";
 
 const Navbar = () => {
+  const history = useHistory();
+
+  const GoToHome = () => {
+    history.push("/");
+  };
+
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-8">
           <div className="logo">
-            <img src={logo} className="logo mt-2" alt="" />
+            <img src={logo} className="logo mt-2" onClick={GoToHome} alt="" />
           </div>
         </div>
 

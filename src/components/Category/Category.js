@@ -1,10 +1,17 @@
 import React from "react";
+import { useHistory } from "react-router";
 import "./Category.css";
 
 const Category = ({ food }) => {
-  const { image, title, desc, price } = food;
+  const { image, title, desc, price, id } = food;
+
+  const history = useHistory();
+
+  const goToDetail = () => {
+    history.push(`/categorydetail/${id}`);
+  };
   return (
-    <div className="col-md-4 text-center category">
+    <div className="col-md-4 text-center category" onClick={goToDetail}>
       <div className="img">
         <img
           src={image}

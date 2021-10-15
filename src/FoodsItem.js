@@ -7,6 +7,7 @@ const FoodsItem = [
     desc: "Extended local parallelism",
     category: "breakfast",
   },
+
   {
     id: 2,
     image: "./Breakfast/breakfast2.png",

@@ -1,6 +1,3 @@
-.logo {
-  width: 250px;
-}
 .banner {
   background: url("../../more-images/bgImage.png");
   height: 80vh;
@@ -9,10 +6,7 @@
   background-repeat: no-repeat;
   position: relative;
 }
-.btn-regular {
-  background-color: #e70a0a;
-  color: #fff;
-}
+
 .btn-search {
   margin-left: -9.5rem;
   background-color: #e70a0a;
