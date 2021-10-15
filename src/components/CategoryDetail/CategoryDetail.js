@@ -11,12 +11,16 @@ const CategoryDetail = () => {
   const [catDetail, setCatDetail] = useState({});
 
   useEffect(() => {
+    const ac = new AbortController();
     const singleCatDetail = foods?.find((food) => food.id === Number(catId));
     setCatDetail(singleCatDetail);
+
+    return () => ac.abort();
   }, [foods, catId]);
 
   return (
     <div className="detail">
+      <img src={catDetail?.image} alt="" />
       <h1>category detail {catDetail?.title}</h1>
       <p>{catDetail?.desc}</p>
       <p>{catDetail?.price}</p>
