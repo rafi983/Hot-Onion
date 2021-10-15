@@ -29,6 +29,8 @@
     "price": 12,
     "title": "Bagel and Cream Cheese",
     "desc": "Triple-buffered cohesive infrastructure",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "breakfast"
   },
   {
@@ -37,6 +39,7 @@
     "price": 18,
     "title": "Full Breakfast Fried Egg Toast Brunch",
     "desc": "Polarized value-added policy",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "breakfast"
   },
   {
@@ -45,6 +48,8 @@
     "price": 16,
     "title": "Toast Croissant",
     "desc": "Customer-focused real-time access",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "breakfast"
   },
   {
@@ -53,6 +58,8 @@
     "price": 23,
     "title": "Honey-Soy-Glazed salmon with Peppers",
     "desc": "Open-source actuating time-frame",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "lunch"
   },
   {
@@ -61,6 +68,8 @@
     "price": 20,
     "title": "Tarragon-Rubbed-Salmon",
     "desc": "Versatile heuristic application",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "lunch"
   },
   {
@@ -69,6 +78,7 @@
     "price": 29,
     "title": "Indian Lunch",
     "desc": "Enhanced national throughput",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "lunch"
   },
   {
@@ -77,6 +87,8 @@
     "price": 25,
     "title": "Fried Chicken Bento",
     "desc": "Team-oriented stable info-mediaries",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "lunch"
   },
   {
@@ -85,6 +97,7 @@
     "price": 28,
     "title": "Healthy Meal Plan",
     "desc": "Advanced needs-based task-force",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "lunch"
   },
   {
@@ -93,6 +106,7 @@
     "price": 21,
     "title": "Beef Steak",
     "desc": "Multi-tiered content-based superstructure",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "lunch"
   },
   {
@@ -101,6 +115,8 @@
     "price": 20,
     "title": "Beef vuna",
     "desc": "Persistent fresh-thinking help-desk",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "dinner"
   },
   {
@@ -109,6 +125,8 @@
     "price": 18,
     "title": "Lemony Salmon Piccata",
     "desc": "Polarised interactive internet solution",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "dinner"
   },
   {
@@ -117,6 +135,8 @@
     "price": 25,
     "title": "Garlic Butter Baked Salmon",
     "desc": "Polarised object-oriented concept",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "dinner"
   },
   {
@@ -125,6 +145,8 @@
     "price": 26,
     "title": "French Fries with cheese",
     "desc": "Function-based clear-thinking knowledge user",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
+
     "category": "dinner"
   },
   {
@@ -133,6 +155,7 @@
     "price": 36,
     "title": "Pork Tenderloin With Quinoa Pilaf",
     "desc": "Compatible asynchronous help-desk",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "dinner"
   },
   {
@@ -141,6 +164,7 @@
     "price": 22,
     "title": "Salmon with Grapefruit and Lentil Salad",
     "desc": "Switchable methodical pricing structure",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "dinner"
   }
 ]

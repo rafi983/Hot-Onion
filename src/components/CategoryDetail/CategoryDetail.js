@@ -11,11 +11,8 @@ const CategoryDetail = () => {
   const [catDetail, setCatDetail] = useState({});
 
   useEffect(() => {
-    // const ac = new AbortController();
     const singleCatDetail = foods?.find((food) => food.id === Number(catId));
     setCatDetail(singleCatDetail);
-
-    // return () => ac.abort();
   }, [foods, catId]);
 
   return (
