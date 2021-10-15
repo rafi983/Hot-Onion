@@ -1,5 +1,6 @@
 const FoodsItem = [
   {
+    id: 1,
     image: "./Breakfast/breakfast1.png",
     price: 15,
     title: "Egg Benedict",
@@ -7,6 +8,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 2,
     image: "./Breakfast/breakfast2.png",
     price: 13,
     title: "Breakfast sandwitch",
@@ -14,6 +16,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 3,
     image: "./Breakfast/breakfast3.png",
     price: 10,
     title: "Baked Chicken",
@@ -21,6 +24,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 4,
     image: "./Breakfast/breakfast4.png",
     price: 12,
     title: "Bagel and Cream Cheese",
@@ -28,6 +32,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 5,
     image: "./Breakfast/breakfast5.png",
     price: 18,
     title: "Full Breakfast Fried Egg Toast Brunch",
@@ -35,6 +40,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 6,
     image: "./Breakfast/breakfast6.png",
     price: 16,
     title: "Toast Croissant",
@@ -42,6 +48,7 @@ const FoodsItem = [
     category: "breakfast",
   },
   {
+    id: 7,
     image: "./lunch/lunch1.png",
     price: 23,
     title: "Honey-Soy-Glazed salmon with Peppers",
@@ -49,6 +56,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 8,
     image: "./lunch/lunch2.png",
     price: 20,
     title: "Tarragon-Rubbed-Salmon",
@@ -56,6 +64,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 9,
     image: "./lunch/lunch3.png",
     price: 29,
     title: "Indian Lunch",
@@ -63,6 +72,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 10,
     image: "./lunch/lunch4.png",
     price: 25,
     title: "Fried Chicken Bento",
@@ -70,6 +80,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 11,
     image: "./lunch/lunch5.png",
     price: 28,
     title: "Healthy Meal Plan",
@@ -77,6 +88,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 12,
     image: "./lunch/lunch6.png",
     price: 21,
     title: "Beef Steak",
@@ -84,6 +96,7 @@ const FoodsItem = [
     category: "lunch",
   },
   {
+    id: 13,
     image: "./Dinner/dinner1.png",
     price: 20,
     title: "Beef vuna",
@@ -91,6 +104,7 @@ const FoodsItem = [
     category: "dinner",
   },
   {
+    id: 14,
     image: "./Dinner/dinner2.png",
     price: 18,
     title: "Lemony Salmon Piccata",
@@ -98,6 +112,7 @@ const FoodsItem = [
     category: "dinner",
   },
   {
+    id: 15,
     image: "./Dinner/dinner3.png",
     price: 25,
     title: "Garlic Butter Baked Salmon",
@@ -105,6 +120,7 @@ const FoodsItem = [
     category: "dinner",
   },
   {
+    id: 16,
     image: "./Dinner/dinner4.png",
     price: 26,
     title: "French Fries with cheese",
@@ -112,6 +128,7 @@ const FoodsItem = [
     category: "dinner",
   },
   {
+    id: 17,
     image: "./Dinner/dinner5.png",
     price: 36,
     title: "Pork Tenderloin With Quinoa Pilaf",
@@ -119,6 +136,7 @@ const FoodsItem = [
     category: "dinner",
   },
   {
+    id: 18,
     image: "./Dinner/dinner6.png",
     price: 22,
     title: "Salmon with Grapefruit and Lentil Salad",

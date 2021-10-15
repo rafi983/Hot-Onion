@@ -19,7 +19,6 @@ li {
 .other-links {
   display: flex;
   color: #fff;
-  /* padding: 6rem; */
 }
 .other-links li {
   margin-top: 4rem;
