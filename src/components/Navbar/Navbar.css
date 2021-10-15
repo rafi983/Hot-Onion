@@ -6,3 +6,21 @@
   background-color: #e70a0a;
   color: #fff;
 }
+.cart {
+  position: relative;
+}
+.food-quantity {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  display: inline-block;
+  background-color: #e70a0a;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+.header-cart {
+  cursor: pointer;
+}

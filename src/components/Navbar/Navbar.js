@@ -10,6 +10,10 @@ const Navbar = () => {
     history.push("/");
   };
 
+  const goToCheckout = () => {
+    history.push("/checkout");
+  };
+
   return (
     <div className="container">
       <div className="row">
@@ -20,8 +24,17 @@ const Navbar = () => {
         </div>
 
         <div className="col-md-4">
-          <div className="header-content d-flex mt-2">
-            <h4 className="mt-2">Dashboard</h4>
+          <div className="header-content d-flex mt-3">
+            <div className="cart me-5">
+              <i
+                className="fas fa-shopping-cart mt-2 fs-2 header-cart"
+                onClick={goToCheckout}
+              ></i>
+              <span className="food-quantity">0</span>
+            </div>
+            <button className="btn btn-regular ms-3 rounded-pill px-4">
+              Sign Up
+            </button>
             <button className="btn btn-regular ms-3 rounded-pill px-4">
               Sign In
             </button>
