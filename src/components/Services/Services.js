@@ -22,7 +22,7 @@ const Services = () => {
       <div className="sevices-container ">
         <div className="row">
           {services.map((service) => (
-            <Service service={service} />
+            <Service key={service.title} service={service} />
           ))}
         </div>
       </div>

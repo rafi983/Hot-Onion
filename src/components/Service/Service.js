@@ -12,7 +12,7 @@ const Service = ({ service }) => {
       </div>
       <p>{desc}</p>
       <button className="btn btn-success">
-        See More <i class="fas fa-long-arrow-alt-right"></i>
+        See More <i className="fas fa-long-arrow-alt-right"></i>
       </button>
     </div>
   );

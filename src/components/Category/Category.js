@@ -24,7 +24,7 @@ const Category = ({ food }) => {
       <p className="fw-bold fs-1">${price}</p>
       <p>{desc}</p>
       <button className="btn btn-info px-3">
-        <i class="fas fa-shopping-cart"></i>
+        <i className="fas fa-shopping-cart"></i>
         Add
       </button>
     </div>
