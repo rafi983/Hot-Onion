@@ -20,6 +20,7 @@ const CategoryDetail = () => {
       <img src={catDetail?.image} alt="" />
       <h1>category detail {catDetail?.title}</h1>
       <p>{catDetail?.desc}</p>
+      <p>{catDetail?.mealDetail}</p>
       <p>{catDetail?.price}</p>
     </div>
   );

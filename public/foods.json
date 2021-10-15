@@ -5,6 +5,7 @@
     "price": 15,
     "title": "Egg Benedict",
     "desc": "Extended local parallelism",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "breakfast"
   },
   {
@@ -13,6 +14,7 @@
     "price": 13,
     "title": "Breakfast sandwitch",
     "desc": "Centralized contextually-based software",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "breakfast"
   },
   {
@@ -21,6 +23,7 @@
     "price": 10,
     "title": "Baked Chicken",
     "desc": "Synchronised exuding instruction set",
+    "mealDetail": "Describing food is not as easy as it would seem. How many ways can you say something was really tasty? Not enough to keep you interested in what you are writing. That is why we have to borrow words from other areas to describe the food and the effect it has on us. You can compare a dish to a picture, a sports game, a musical performance, or give it personality.",
     "category": "breakfast"
   },
   {
