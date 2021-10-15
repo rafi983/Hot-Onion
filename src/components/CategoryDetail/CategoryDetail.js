@@ -17,11 +17,21 @@ const CategoryDetail = () => {
 
   return (
     <div className="detail">
-      <img src={catDetail?.image} alt="" />
-      <h1>category detail {catDetail?.title}</h1>
-      <p>{catDetail?.desc}</p>
-      <p>{catDetail?.mealDetail}</p>
-      <p>{catDetail?.price}</p>
+      <div className="container">
+        <div className="row d-flex mt-4 align-items-center">
+          <div className="col-md-6">
+            <h1>{catDetail?.title}</h1>
+            <p className="w-75">{catDetail?.mealDetail}</p>
+            <p className="fs-1 fw-bold">${catDetail?.price}</p>
+            <button className="btn btn-danger px-4">
+              <i className="fas fa-shopping-cart"></i>Add
+            </button>
+          </div>
+          <div className="col-md-6">
+            <img src={catDetail?.image} className="meal-img img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
