@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import "./CategoryDetail.css";
 
 const CategoryDetail = () => {
-  const { id } = useParams();
+  const { catId } = useParams();
+
+  const [catDetail, setCatDetail] = useState({});
+
+  // useEffect(() => {
+  // const singleCategory =
+  // },[])
+
   return (
     <div className="detail">
-      <h1>category detail {id}</h1>
+      <h1>category detail {catId}</h1>
     </div>
   );
 };
