@@ -3,12 +3,12 @@ import { useHistory } from "react-router";
 import "./Category.css";
 
 const Category = ({ food }) => {
-  const { image, title, desc, price, id } = food;
+  const { image, title, desc, price, id, category } = food;
 
   const history = useHistory();
 
   const goToDetail = () => {
-    history.push(`/categorydetail/${id}`);
+    history.push(`/${category}/${id}`);
   };
   return (
     <div className="col-md-4 text-center category" onClick={goToDetail}>
