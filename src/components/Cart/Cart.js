@@ -2,7 +2,7 @@ import React from "react";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { cart } = props;
+  const { cart, children } = props;
 
   let totalQuantity = 0;
   let total = 0;
@@ -20,7 +20,7 @@ const Cart = (props) => {
   return (
     <>
       <div className="col-md-7 subtotal">
-        <span>subtotal - {cart.length} Items</span>
+        <span>subtotal - {totalQuantity} Items</span>
       </div>
       <div className="col-md-5">
         <span>${total}</span>
@@ -46,6 +46,8 @@ const Cart = (props) => {
       <div className="col-md-5">
         <span>${grandTotal.toFixed(2)}</span>
       </div>
+
+      {children}
     </>
   );
 };

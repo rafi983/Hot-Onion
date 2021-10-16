@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Navbar />
         <Switch>
@@ -25,7 +25,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-    </div>
+    </>
   );
 }
 

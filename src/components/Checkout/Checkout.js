@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 import useCart from "../../hooks/useCart";
 import useFoodItems from "../../hooks/useFoodItems";
 import Cart from "../Cart/Cart";
@@ -6,14 +8,66 @@ import "./Checkout.css";
 
 const Checkout = () => {
   const { foods } = useFoodItems();
-  const [cart, setCart] = useCart(foods);
+  const [cart] = useCart(foods);
+  const [defaultValue, setDefaultValue] = useState(1);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => console.log(data);
+
   return (
     <div className="checkout">
       <div className="container">
         <div className="row">
-          <div className="col-md-6"></div>
-          <div className="col-md-6">
-            <h1>Check Cart</h1>
+          <div className="col-md-7">
+            <h4 className="text-center">Delivery Detail</h4>
+            <hr />
+            <form className="shipping-form" onSubmit={handleSubmit(onSubmit)}>
+              <input
+                defaultValue=""
+                placeholder="Your name"
+                {...register("name")}
+              />
+              <input
+                defaultValue=""
+                placeholder="Email..."
+                {...register("email", { required: true })}
+              />
+              {errors.email && (
+                <span className="error">This field is required</span>
+              )}
+
+              <input
+                defaultValue=""
+                placeholder="house no"
+                {...register("house")}
+              />
+
+              <input defaultValue="" placeholder="city" {...register("city")} />
+              <input
+                defaultValue=""
+                placeholder="address"
+                {...register("address")}
+              />
+              <input
+                defaultValue=""
+                placeholder="phone"
+                {...register("phone")}
+              />
+              <textarea
+                rows={5}
+                cols={53}
+                className="mt-4"
+                placeholder="Description (optional)"
+              ></textarea>
+              <input type="submit" />
+            </form>
+          </div>
+          <div className="col-md-5">
+            <h4 className="text-center">Check Cart</h4>
             <hr />
             <h4>
               From <span className="fw-bold">Red Onion Restaurant</span>
@@ -32,8 +86,25 @@ const Checkout = () => {
                       />
                     </div>
                     <div className="col-md-10">
-                      <h5>{foodItem.title}</h5>
-                      <p className="fw-bold fs-1 ms-4">${foodItem.price}</p>
+                      <div className="row d-flex align-items-center">
+                        <div className="col-md-7">
+                          <h5>{foodItem.title}</h5>
+                          <p className="fw-bold fs-1 ms-4">${foodItem.price}</p>
+                        </div>
+                        <div className="col-md-5 px-3">
+                          <i className="fas fa-minus fs-2 minus"></i>
+                          <p
+                            style={{
+                              display: "inline-block",
+                              fontSize: "30px",
+                              margin: "0.5rem",
+                            }}
+                          >
+                            {defaultValue}
+                          </p>
+                          <i className="fas fa-plus fs-2 plus"></i>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -43,7 +114,13 @@ const Checkout = () => {
             <div className="price-cart my-5">
               <div className="container">
                 <div className="row">
-                  <Cart cart={cart} />
+                  <Cart cart={cart}>
+                    <Link to="/">
+                      <button className="btn btn-danger mt-4">
+                        Place Order
+                      </button>
+                    </Link>
+                  </Cart>
                 </div>
               </div>
             </div>

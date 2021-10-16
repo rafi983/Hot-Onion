@@ -30,7 +30,6 @@ const Navbar = () => {
                 className="fas fa-shopping-cart mt-2 fs-2 header-cart"
                 onClick={goToCheckout}
               ></i>
-              <span className="food-quantity">0</span>
             </div>
             <button className="btn btn-regular ms-3 rounded-pill px-4">
               Sign Up
