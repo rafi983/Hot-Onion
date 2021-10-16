@@ -22,7 +22,7 @@ const Checkout = () => {
     <div className="checkout">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-7">
             <h4 className="text-center">Delivery Detail</h4>
             <hr />
             <form className="shipping-form" onSubmit={handleSubmit(onSubmit)}>
@@ -61,7 +61,7 @@ const Checkout = () => {
               <input type="submit" />
             </form>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <h4 className="text-center">Check Cart</h4>
             <hr />
             <h4 className="ms-2">
