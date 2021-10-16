@@ -22,7 +22,7 @@ const Checkout = () => {
     <div className="checkout">
       <div className="container">
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-md-6">
             <h4 className="text-center">Delivery Detail</h4>
             <hr />
             <form className="shipping-form" onSubmit={handleSubmit(onSubmit)}>
@@ -40,13 +40,8 @@ const Checkout = () => {
                 <span className="error">This field is required</span>
               )}
 
-              <input
-                defaultValue=""
-                placeholder="house no"
-                {...register("house")}
-              />
-
               <input defaultValue="" placeholder="city" {...register("city")} />
+
               <input
                 defaultValue=""
                 placeholder="address"
@@ -66,14 +61,14 @@ const Checkout = () => {
               <input type="submit" />
             </form>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <h4 className="text-center">Check Cart</h4>
             <hr />
-            <h4>
+            <h4 className="ms-2">
               From <span className="fw-bold">Red Onion Restaurant</span>
             </h4>
-            <h4>Arriving in 20-30 min</h4>
-            <h4>107 Rd No 8</h4>
+            <h4 className="ms-2">Arriving in 20-30 min</h4>
+            <h4 className="ms-2">107 Rd No 8</h4>
             <div className="foodContainer">
               {cart.map((foodItem) => (
                 <div className="container">
@@ -87,22 +82,22 @@ const Checkout = () => {
                     </div>
                     <div className="col-md-10">
                       <div className="row d-flex align-items-center">
-                        <div className="col-md-7">
+                        <div className="col-md-8">
                           <h5>{foodItem.title}</h5>
                           <p className="fw-bold fs-1 ms-4">${foodItem.price}</p>
                         </div>
-                        <div className="col-md-5 px-3">
-                          <i className="fas fa-minus fs-2 minus"></i>
+                        <div className="col-md-4">
+                          <i className="fas fa-minus fs-4 minus"></i>
                           <p
                             style={{
                               display: "inline-block",
-                              fontSize: "30px",
-                              margin: "0.5rem",
+                              fontSize: "20px",
+                              margin: "0 .6rem",
                             }}
                           >
                             {defaultValue}
                           </p>
-                          <i className="fas fa-plus fs-2 plus"></i>
+                          <i className="fas fa-plus fs-4 plus"></i>
                         </div>
                       </div>
                     </div>
